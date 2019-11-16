@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import "../customStyles/app.scss"
 
 export default class MatButton extends Component {
   render() {

@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "../MatButton2.scss";
+import "../customStyles/MatButton2.scss";
 
 export default class MatButton2 extends Component {
   render() {
