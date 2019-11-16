@@ -1,0 +1,8 @@
+@import "@material/button/mdc-button";
+
+.red-button {
+  @include mdc-button-ink-color(lightblue);
+  @include mdc-states(black);
+  @include mdc-button-filled-accessible(white);
+
+}

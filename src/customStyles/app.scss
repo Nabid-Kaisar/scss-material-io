@@ -1,0 +1,8 @@
+@import "@material/button/mdc-button";
+@import "./MatButton2.scss";
+
+.foo-button {
+  @include mdc-button-ink-color(red);
+  @include mdc-states(white);
+  @include mdc-button-filled-accessible(green);
+}

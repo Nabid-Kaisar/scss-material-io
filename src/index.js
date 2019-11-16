@@ -1,9 +1,16 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import './style.css';
+
+import MatButton from "./comp/MatButton";
+import MatButton2 from "./comp/MatButton2";
 
 const Index = () => {
-  return <div className="helloworld">Hello React,Webpack4,Babel7!</div>;
+  return (
+    <div>
+      <MatButton />
+      <MatButton2 />
+    </div>
+  );
 };
 
 ReactDOM.render(<Index />, document.querySelector("#root"));
